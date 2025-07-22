@@ -5,5 +5,5 @@ import lombok.Data;
 @Data
 public class TaskCreateDto {
     private String description;
-    private long duration;
+    private long duration; //seconds
 }
